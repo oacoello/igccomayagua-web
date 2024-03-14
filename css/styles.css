@@ -1,0 +1,76 @@
+body
+{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #efede9;
+}
+/*HEADER*/
+header
+{
+    background-color: #efede9;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    min-height: 70px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.781) ;
+}
+header a
+{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+header a:hover
+{
+    color: rgb(30, 131, 30);
+    cursor: pointer;
+}
+
+header ul
+{
+    margin: 0;
+    padding: 0;
+    background-color:
+}
+header li
+{
+    float:left;
+    display: inline;
+    padding: 5px 20px 0 20px;
+}
+/*BOTONES DEL NAV*/
+header #branding
+{
+    float: left;
+    padding-bottom: 15px;
+    margin-left: 25px;
+}
+header nav
+{
+    float: right;
+    margin-top: 15px
+}
+
+/*BANNER DE INICIO*/
+#banner
+{
+    min-height: 600px;
+    background: url('../content/banner1.jpg') no-repeat 0 -100px ;
+}
+.banner_title
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    left: -50px;
+    bottom: -400px;
+}
+.banner_title_text
+{
+    color: white;
+    padding-left: 30px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    line-height: 10px;
+}
